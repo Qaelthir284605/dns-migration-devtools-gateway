@@ -1,0 +1,14 @@
+{
+  "name": "dns-migration-devtools-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/migration_entry.ts",
+    "test": "node --experimental-strip-types --test src/migration_entry.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "engines": { "node": ">=22.6" }
+}
